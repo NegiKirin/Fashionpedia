@@ -91,6 +91,11 @@ Hệ thống hỗ trợ nhận diện toàn diện:
     -   *Chất liệu*: Da, Len, Ren, Lụa...
     -   *Chi tiết*: Cổ chữ V, Tay ngắn, Có túi, Khóa kéo...
 
+## 🔗 Liên Kết Quan Trọng (Important Links)
+
+*   **Source Code**: [GitHub - Fashionpedia Project](https://github.com/NegiKirin/Fashionpedia)
+*   **Model Weights**: [Google Drive - Pretrained Checkpoints](https://drive.google.com/drive/folders/1-mbIyjxd1w7_VIhAgc495sZyCiWA0v-T?usp=sharing)
+
 ## 👥 Tác Giả & Tín Dụng
 
 -   **Model Base**: [HuggingFace YOLOS](https://huggingface.co/hustvl/yolos-small)
