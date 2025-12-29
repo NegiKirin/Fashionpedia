@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Detection AI Demo</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1 class="title">👗 Fashion Detection AI</h1>
+            <p class="subtitle">Upload an image to detect fashion items and their attributes</p>
+        </header>
+
+        <!-- Upload Section -->
+        <section class="upload-section">
+            <div class="upload-area" id="uploadArea">
+                <input type="file" id="fileInput" accept="image/*" hidden>
+                <div class="upload-icon">📸</div>
+                <p class="upload-text">Drag and drop an image here</p>
+                <p class="upload-subtext">or</p>
+                <button class="upload-btn" id="uploadBtn">Choose File</button>
+            </div>
+        </section>
+
+        <!-- Loading State -->
+        <div class="loading" id="loading" style="display: none;">
+            <div class="spinner"></div>
+            <p>Detecting fashion items...</p>
+        </div>
+
+        <!-- Results Section -->
+        <section class="results-section" id="resultsSection" style="display: none;">
+            <h2 class="results-title">Detection Results</h2>
+
+            <!-- Images Display -->
+            <div class="images-grid">
+                <!-- Detected Image (Left) -->
+                <div class="image-container">
+                    <h3 class="image-label">Detected</h3>
+                    <img id="detectedImage" alt="Detected image">
+                </div>
+
+                <!-- Original Image (Right) -->
+                <div class="image-container">
+                    <h3 class="image-label">Original</h3>
+                    <img id="originalImage" alt="Original image">
+                </div>
+            </div>
+
+            <!-- JSON Output -->
+            <div class="json-section">
+                <h3 class="json-title">Detection Details</h3>
+                <pre id="jsonOutput" class="json-output"></pre>
+            </div>
+        </section>
+
+        <!-- Error Display -->
+        <div class="error-message" id="errorMessage" style="display: none;"></div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+
+</html>
