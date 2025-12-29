@@ -96,8 +96,8 @@ Hệ thống hỗ trợ nhận diện toàn diện:
 *   **Source Code**: [GitHub - Fashionpedia Project](https://github.com/NegiKirin/Fashionpedia)
 *   **Model Weights**: [Google Drive - Pretrained Checkpoints](https://drive.google.com/drive/folders/1-mbIyjxd1w7_VIhAgc495sZyCiWA0v-T?usp=sharing)
 
-## 👥 Tác Giả & Tín Dụng
+## 👥 Sử dụng
 
 -   **Model Base**: [HuggingFace YOLOS](https://huggingface.co/hustvl/yolos-small)
--   **Dataset**: [Fashionpedia](https://fashionpedia.github.io/)
+-   **Dataset**: [Fashionpedia](https://github.com/cvdfoundation/fashionpedia)
 -   **Framework**: PyTorch, Transformers, Albumentations.
